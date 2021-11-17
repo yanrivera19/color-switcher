@@ -7,11 +7,12 @@ to set the CSS property that we want to apply to our element of
 selection. Use the background color property and assign to it
 the parameter of the function.
 Step 3: Add the onchange event with the function's name as its value
-to the <select> element from the HTML file. Inside of the parameters
+to the <select> element on the HTML file. Inside of the parameters
 of the function name in the onchange event, we use the "this" keyword
-on the value of each item in our list so that function has access to them.
-The function, when executed, will take the value of the selected item
-in our list as its parameter
+on the value of each item in our list so that the function can have 
+access to them. The function will be executed whenever there is a change of
+value in our dropdown list (whenever an item is chosen), and it will take the 
+value of the chosen item in our list as its argument.
 */
 
 
